@@ -25,7 +25,7 @@ const Searchbar = () => {
       sx={{ borderRadius: '20px', border: '1px solid #e3e3e3', pl: 2, boxShadow: 'none', mr: { sm: 5 } }}>
       <input
         className="search-bar"
-        placeholder='Search ...'
+        placeholder='Please write any text and press enter ..'
         type="text" value={searchterm}
         onChange={(e) => setSearchterm(e.target.value)} />
       <IconButton 

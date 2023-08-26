@@ -12,7 +12,7 @@ const Feed = () => {
 
   useEffect(() => {
     fetchApi(`search?part=snippet&q=${selectedCategory}`).then((data)=>{
-      setVideos(data.items)
+      setVideos(data?.items)
     })
   }, [selectedCategory])
 

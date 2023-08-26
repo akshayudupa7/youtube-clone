@@ -13,8 +13,8 @@ const Navbar = () => {
       p={2}
       sx={{ position: 'sticky', background: '#202020', top: '0', justifyContent: 'space-between',zIndex:'11' }}>
 
-      <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
-        <img className='mleft' src={Logoimg} alt="logo" height={45} />
+      <Link to="/" style={{ display: 'flex', alignItems: 'center',color:'white'}}>
+             <h1>Entertain Viewer</h1>  {/*<img className='mleft' src={Logoimg} alt="logo" height={45} />*/}
       </Link>
 
       <Searchbar/>
